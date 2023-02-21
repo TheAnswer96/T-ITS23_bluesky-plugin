@@ -91,4 +91,4 @@ sr.process_results()
 >Missouri University of Science and Technology, USA
 >federico.coro@mst.edu
 
-A little pun for drone fans: Why did the drone refuse to fly in high winds? It was too air-DRONE-matic for its liking!
+*A little pun for drone fans: Why did the drone refuse to fly in high winds? It was too air-DRONE-matic for its liking!* :grinning: :airplane:
