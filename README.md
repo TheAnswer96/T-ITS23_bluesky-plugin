@@ -58,24 +58,24 @@ bluesky-simulator
 
 ***FOR ANY TYPE OF ISSUE OR QUESTIONS DO NOT HESITATE TO CONTACT THE AUTHORS OF THE PAPER!!***
 
-  **Francesco Betti Sorbelli**
-	Post-doc, Dept. of Comp. Sci. and Math., 
-	University of Perugia, Italy
-	francesco.bettisorbelli@unipg.it
+**Francesco Betti Sorbelli**
+Post-doc, Dept. of Comp. Sci. and Math., 
+University of Perugia, Italy
+francesco.bettisorbelli@unipg.it
 	
-	**Lorenzo Palazzetti** 
-	PhD Student, Dept. of Comp. Sci., 
-	University of Florence, Italy
-	lorenzo.palazzetti@unifi.it
+**Lorenzo Palazzetti** 
+PhD Student, Dept. of Comp. Sci., 
+University of Florence, Italy
+lorenzo.palazzetti@unifi.it
 
-	**Giulio Rigoni**
-	PhD Student, Dept. of Comp. Sci.,
-	University of Florence, Italy
-	giulio.rigoni@unifi.it
+**Giulio Rigoni**
+PhD Student, Dept. of Comp. Sci.,
+University of Florence, Italy
+giulio.rigoni@unifi.it
 
-  **Federico Corò** 
-	Post-doc, Department of Computer Science
-	Missouri University of Science and Technology, USA
-	federico.coro@mst.edu
+**Federico Corò** 
+Post-doc, Department of Computer Science
+Missouri University of Science and Technology, USA
+federico.coro@mst.edu
 
 A little pun for drone fans: Why did the drone refuse to fly in high winds? It was too air-DRONE-matic for its liking!
