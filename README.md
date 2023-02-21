@@ -58,6 +58,16 @@ bluesky-simulator
 ```
 
 ## Run Example
+> run *python main.py* and uncomment the following lines to create the BlueSky instances 
+```
+    	sr.create_scenarios(0, 6)
+    	sr.blueskylog2csv()
+   	sr.csv2energy()
+```
+> run *python main.py* and uncomment the following line to compute the energy consumption experienced during the simulatios
+```
+	sr.process_results()
+```
 
 ***FOR ANY TYPE OF ISSUE OR QUESTIONS DO NOT HESITATE TO CONTACT THE AUTHORS OF THE PAPER!!***
 
