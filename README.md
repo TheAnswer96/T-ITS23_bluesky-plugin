@@ -32,4 +32,12 @@ The idea behind the plug-in is the flowwing, when a flight simulation is done, B
 In order to estimate an semi-realistic energy consumption, we parse the log file and for each two consecutive lines, we extract the two GPS coordinates, so that we can compute the actual flown distance and the drone's heading.
 Accordingly, knowing the wind experienced by the drone, we can then \textit{precisely} estimate the energy consumption of it by using our energy consumption model derived from the paper "Energy use and life cycle greenhouse gas emissions of drones for commercial package delivery" (https://www.nature.com/articles/s41467-017-02411-5).
 In particular, we introduce the concept of wind classes in order to make the computation of the energy consumption lighter (by default the code uses wind classes).
-Note that, the code can be run also without the notion of wind classes; this make the computation the most precise as possible with a considerable deterioration of the performance. 
+It should be noted that the code can also be run without the concept of wind classes; this makes the computation as precise as possible at the expense of significant performance degradation. 
+As well detailed in our work, the use of the developed plug-in allows us to validate the theoretical consumption of the proposed model, observing only limited differences due to more realistic UAV trajectories, namely the path of the drone in the simulator is not exactly the euclidian trajectory between the take-off and the rendevouz point.
+
+OVERVIEW OF THE SCRIPTS:
+
+- model.py
+- line.py
+- energy.py
+- simulator.py
