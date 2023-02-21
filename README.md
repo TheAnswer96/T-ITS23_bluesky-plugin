@@ -1,4 +1,4 @@
-# T-ITS23_bluesky-plugin
+# T-ITS23: bluesky-plugin
 
 The repository contais the code written for the scientific paper titled *"How the Wind Can Be Leveraged for Saving Energy in a Truck-Drone Delivery System", F. B. Sorbelli, F. Corò, L. Palazzetti, C. M. Pinotti and G. Rigoni, in IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2023.3234627*.
 
