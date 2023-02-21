@@ -28,12 +28,12 @@ BlueSky is an open Air Traffic Simulator (ATS), and is meant as a tool to perfor
 At the best of our knowledge, BlueSky is the only simulator in which it is possible to simulate the flight of different aircraft by injecting the presence of the wind.
 Although BlueSky can model aircraft under the effect of the wind, there is not any available option that computes the actual energy consumption of them.
 So, we created an ad hoc plug-in for BlueSky (still at a very preliminary stage though) that can estimate the energy consumed when a drone flies.
-The idea behind the plug-in is the flowwing, when a flight simulation is done, BlueSky creates a log file (in CSV format) in which each line comprises different fields, like GPS coordinates, drone's speed, global wind, and so on.
-In order to estimate an semi-realistic energy consumption, we parse the log file and for each two consecutive lines, we extract the two GPS coordinates, so that we can compute the actual flown distance and the drone's heading.
+The idea behind the plug-in is the following: when a flight simulation is done, BlueSky creates a log file (in CSV format) in which each line comprises different fields, like GPS coordinates, drone's speed, global wind, and so on.
+In order to estimate a semi-realistic energy consumption, we parse the log file and for each two consecutive lines, we extract the two GPS coordinates, so that we can compute the actual flown distance and the drone's heading.
 Accordingly, knowing the wind experienced by the drone, we can then \textit{precisely} estimate the energy consumption of it by using our energy consumption model derived from the paper "Energy use and life cycle greenhouse gas emissions of drones for commercial package delivery" (https://www.nature.com/articles/s41467-017-02411-5).
-In particular, we introduce the concept of wind classes in order to make the computation of the energy consumption lighter (by default the code uses wind classes).
-It should be noted that the code can also be run without the concept of wind classes; this makes the computation as precise as possible at the expense of significant performance degradation. 
-As well detailed in our work, the use of the developed plug-in allows us to validate the theoretical consumption of the proposed model, observing only limited differences due to more realistic UAV trajectories, namely the path of the drone in the simulator is not exactly the euclidian trajectory between the take-off and the rendevouz point.
+In particular, we propose the idea of wind classes to simplify the estimation of energy consumption (by default the code uses wind classes).
+It should be noted that the code may also be executed without the idea of wind classes; this makes the computation as exact as feasible at the price of severe performance deterioration.
+As detailed in our work, the use of the developed plug-in allows us to validate the theoretical consumption of the proposed model, with only minor differences due to more realistic UAV trajectories, namely the path of the drone in the simulator is not exactly the euclidian trajectory between the take-off and the rendevouz point.
 
 OVERVIEW OF THE SCRIPTS:
 
