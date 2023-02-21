@@ -38,6 +38,8 @@ As detailed in our work, the use of the developed plug-in allows us to validate 
 OVERVIEW OF THE SCRIPTS:
 
 - model.py
-- line.py
+
+- line.py: module which contains functions for creating and manipulating mathematical objects such as lines, points, and segments. It includes a function for generating a line with a given angle and direction, a function for determining which side of a segment a point is on, and a function for generating a random segment on a line. It also includes a helper function for calculating intermediate points between two given points.
+
 - energy.py
 - simulator.py
