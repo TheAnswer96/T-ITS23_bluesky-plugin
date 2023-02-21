@@ -1,13 +1,13 @@
 # T-ITS23_bluesky-plugin
 
-The repository contais the code written for the scientific paper titled "How the Wind Can Be Leveraged for Saving Energy in a Truck-Drone Delivery System", F. B. Sorbelli, F. Corò, L. Palazzetti, C. M. Pinotti and G. Rigoni, in IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2023.3234627.
+The repository contais the code written for the scientific paper titled *"How the Wind Can Be Leveraged for Saving Energy in a Truck-Drone Delivery System", F. B. Sorbelli, F. Corò, L. Palazzetti, C. M. Pinotti and G. Rigoni, in IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2023.3234627*.
 
-*Abstract:*
+**Abstract:**
 In this work, we investigate the impact of the wind in a drone-based delivery system. For the first time, to the best of our knowledge, we adapt the trajectory of the drone to the wind. We consider a truck-drone tandem delivery system. The drone actively reacts to the wind adopting the “most tailwind” trajectory available between the truck’s path and the delivery. The truck moves on a predefined route and carries the drone close to the delivery point. We propose the Minimum-energy Drone-trajectory Problem (MDP) which aims, when the wind affects the delivery area, at planning minimum-energy trajectories for the drone to serve the customers starting from and returning to the truck. We then propose two algorithms that optimally solve under two different routes of the truck. We also analytically study the feasibility of sending drones with limited battery to deliver packages. Finally, we first numerically compare our algorithms on randomly generated synthetic and real data, and then we evaluate our model simulating the drone’s flight in the simulator.
 
 URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10014537&isnumber=4358928
 
-CITE US TO SUPPORT OUR WORK!
+***CITE US TO SUPPORT OUR WORK!
 
 @ARTICLE{bluesky-plugin,
   author={Betti Sorbelli, Francesco and Corò, Federico and Palazzetti, Lorenzo and Pinotti, Cristina M. and Rigoni, Giulio},
@@ -20,9 +20,9 @@ CITE US TO SUPPORT OUR WORK!
   keywords={},
   doi={10.1109/TITS.2023.3234627},
   ISSN={1558-0016},
-  month={},}
+  month={},}***
   
-BRIEF OVERVIEW OF THE REPO:
+**BRIEF OVERVIEW OF THE REPO:**
  
 For evaluating the algorithms provided in our paper on a simulated environment, we rely on BlueSky (https://github.com/TUDelft-CNS-ATM/bluesky).
 BlueSky is an open Air Traffic Simulator (ATS), and is meant as a tool to perform research on Air Traffic Management and Air Traffic Flows.
@@ -36,7 +36,7 @@ In particular, we propose the idea of wind classes to simplify the estimation of
 It should be noted that the code may also be executed without the idea of wind classes; this makes the computation as exact as feasible at the price of severe performance deterioration.
 As detailed in our work, the use of the developed plug-in allows us to validate the theoretical consumption of the proposed model, with only minor differences due to more realistic UAV trajectories, namely the path of the drone in the simulator is not exactly the euclidian trajectory between the take-off and the rendevouz point.
 
-OVERVIEW OF THE SCRIPTS:
+**OVERVIEW OF THE SCRIPTS:**
 
 - model.py: module which contains functions for creating the compass rose, wind classes, and energy consumptions according to the paper's system model section.
 
@@ -46,7 +46,36 @@ OVERVIEW OF THE SCRIPTS:
 
 - simulator.py: module which contains the functions used for creating and managing the flight instances, converting them into .bat files, and running them into the BlueSky simulator. What's more there are functions that allow to record the energy into csv.
 
+**Python Libraries Required**
+```
+numpy
+pandas
+sympy
+pyproj
+mpmath
+bluesky-simulator
+```
 
-FOR ANY TYPE OF ISSUE OR QUESTIONS DO NOT HESITATE TO CONTACT THE AUTHORS OF THE PAPER!!
+***FOR ANY TYPE OF ISSUE OR QUESTIONS DO NOT HESITATE TO CONTACT THE AUTHORS OF THE PAPER!!***
+
+  **Francesco Betti Sorbelli**
+	Post-doc, Dept. of Comp. Sci. and Math., 
+	University of Perugia, Italy
+	francesco.bettisorbelli@unipg.it
+	
+	**Lorenzo Palazzetti** 
+	PhD Student, Dept. of Comp. Sci., 
+	University of Florence, Italy
+	lorenzo.palazzetti@unifi.it
+
+	**Giulio Rigoni**
+	PhD Student, Dept. of Comp. Sci.,
+	University of Florence, Italy
+	giulio.rigoni@unifi.it
+
+  **Federico Corò** 
+	Post-doc, Department of Computer Science
+	Missouri University of Science and Technology, USA
+	federico.coro@mst.edu
 
 A little pun for drone fans: Why did the drone refuse to fly in high winds? It was too air-DRONE-matic for its liking!
