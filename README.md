@@ -58,7 +58,7 @@ bluesky-simulator
 ```
 
 ## Run Example
-> run *python main.py* and uncomment the following lines to create the BlueSky instances (for instance we create trajectories with the most accurate track, and with 6 wind classes)
+> run *python main.py* and uncomment the following lines to create the BlueSky instances (for instance we create trajectories with the most accurate track, i.e.,  granularity=0, and with a fixed number of wind classes, i.e., wind_classes=6)
 ```
 sr.create_scenarios(0, 6)
 sr.blueskylog2csv()
