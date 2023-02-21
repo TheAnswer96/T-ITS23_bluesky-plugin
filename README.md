@@ -75,7 +75,12 @@ sr.process_results()
 >Post-doc, Dept. of Comp. Sci. and Math., 
 >University of Perugia, Italy
 >francesco.bettisorbelli@unipg.it
-	
+
+>**Federico Corò** 
+>Post-doc, Department of Computer Science
+>Missouri University of Science and Technology, USA
+>federico.coro@mst.edu
+
 >**Lorenzo Palazzetti** 
 >PhD Student, Dept. of Comp. Sci., 
 >University of Florence, Italy
@@ -86,9 +91,6 @@ sr.process_results()
 >University of Florence, Italy
 >giulio.rigoni@unifi.it
 
->**Federico Corò** 
->Post-doc, Department of Computer Science
->Missouri University of Science and Technology, USA
->federico.coro@mst.edu
+
 
 *A little pun for drone fans: Why did the drone refuse to fly in high winds? It was too air-DRONE-matic for its liking!* :grinning: :airplane:
