@@ -44,3 +44,8 @@ OVERVIEW OF THE SCRIPTS:
 - energy.py: the code described in this module defines several functions to compute the energy consumed by a drone during a flight, given its payload weight, distance, speed, and the wind conditions. The get_energy function takes the relevant parameters and computes the energy consumed, while the compute_prefixes and compute_prefixes_extended functions compute the energy consumed for different combinations of wind direction and payload weight. The code makes use of several physical and mathematical formulas to compute the drag force, thrust, power, and energy consumption of the drone, as well as to solve for the induced speed required for hovering. The code makes use of the numpy, sympy, and mpmath libraries to perform numerical calculations and solve equations.
 
 - simulator.py: module which contains the functions used for creating and managing the flight instances, converting them into .bat files, and running them into the BlueSky simulator. What's more there are functions that allow to record the energy into csv.
+
+
+FOR ANY TYPE OF ISSUE OR QUESTIONS DO NOT HESITATE TO CONTACT THE AUTHORS OF THE PAPER!!
+
+A little pun for drone fans: Why did the drone refuse to fly in high winds? It was too air-DRONE-matic for its liking!
