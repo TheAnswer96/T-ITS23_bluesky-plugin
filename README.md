@@ -21,7 +21,8 @@ CITE US TO SUPPORT OUR WORK!
   ISSN={1558-0016},
   month={},}
   
- BRIEF OVERVIEW OF THE REPO:
+BRIEF OVERVIEW OF THE REPO:
+ 
 For evaluating the algorithms provided in our paper on a simulated environment, we rely on BlueSky (https://github.com/TUDelft-CNS-ATM/bluesky).
 BlueSky is an open Air Traffic Simulator (ATS), and is meant as a tool to perform research on Air Traffic Management and Air Traffic Flows.
 At the best of our knowledge, BlueSky is the only simulator in which it is possible to simulate the flight of different aircraft by injecting the presence of the wind.
