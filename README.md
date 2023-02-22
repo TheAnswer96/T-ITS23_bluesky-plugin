@@ -73,13 +73,13 @@ sr.process_results()
 ***FOR ANY TYPE OF ISSUE OR QUESTIONS DO NOT HESITATE TO CONTACT THE AUTHORS OF THE PAPER!!***
 
 >**Francesco Betti Sorbelli**
->Post-doc, Dept. of Comp. Sci. and Math., 
+>Assistant Professor, Dept. of Comp. Sci. and Math., 
 >University of Perugia, Italy
 >francesco.bettisorbelli@unipg.it
 
 >**Federico Corò** 
->Post-doc, Department of Computer Science
->Missouri University of Science and Technology, USA
+>Post-doc, Dept. of Comp. Sci. and Math., 
+>University of Perugia, Italy
 >federico.coro@mst.edu
 
 >**Lorenzo Palazzetti** 
@@ -88,9 +88,9 @@ sr.process_results()
 >lorenzo.palazzetti@unifi.it
 
 >**Giulio Rigoni**
->PhD Student, Dept. of Comp. Sci.,
->University of Florence, Italy
->giulio.rigoni@unifi.it
+>Post-doc, Dept. of Math., 
+>University of Padua, Italy
+>giulio.rigoni@math.unipd.it
 
 
 
