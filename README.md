@@ -10,18 +10,18 @@ URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10014537&isnumber=
 
 ***CITE US TO SUPPORT OUR WORK!***
 ```
-*@ARTICLE{bluesky-plugin,*
-  *author={Betti Sorbelli, Francesco and Corò, Federico and Palazzetti, Lorenzo and Pinotti, Cristina M. and Rigoni, Giulio},*
-  *journal={IEEE Transactions on Intelligent Transportation Systems},*
-  *title={How the Wind Can Be Leveraged for Saving Energy in a Truck-Drone Delivery System},* 
-  *year={2023},*
-   *volume={},*
-  *number={},*
-  *pages={1-12},*
-  *keywords={},*
-  *doi={10.1109/TITS.2023.3234627},*
-  *ISSN={1558-0016},*
-  *month={},}*
+@ARTICLE{bluesky-plugin,
+  author={Betti Sorbelli, Francesco and Corò, Federico and Palazzetti, Lorenzo and Pinotti, Cristina M. and Rigoni, Giulio},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  title={How the Wind Can Be Leveraged for Saving Energy in a Truck-Drone Delivery System},
+  year={2023},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={},
+  doi={10.1109/TITS.2023.3234627},
+  ISSN={1558-0016},
+  month={},}
 ```  
 ## BRIEF OVERVIEW OF THE REPO:
  
