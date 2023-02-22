@@ -9,20 +9,20 @@ In this work, we investigate the impact of the wind in a drone-based delivery sy
 URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10014537&isnumber=4358928
 
 ***CITE US TO SUPPORT OUR WORK!***
-
->*@ARTICLE{bluesky-plugin,*
->  *author={Betti Sorbelli, Francesco and Corò, Federico and Palazzetti, Lorenzo and Pinotti, Cristina M. and Rigoni, Giulio},*
->  *journal={IEEE Transactions on Intelligent Transportation Systems},*
->  *title={How the Wind Can Be Leveraged for Saving Energy in a Truck-Drone Delivery System},* 
->  *year={2023},*
->  *volume={},*
->  *number={},*
->  *pages={1-12},*
->  *keywords={},*
->  *doi={10.1109/TITS.2023.3234627},*
->  *ISSN={1558-0016},*
->  *month={},}*
-  
+```
+*@ARTICLE{bluesky-plugin,*
+  *author={Betti Sorbelli, Francesco and Corò, Federico and Palazzetti, Lorenzo and Pinotti, Cristina M. and Rigoni, Giulio},*
+  *journal={IEEE Transactions on Intelligent Transportation Systems},*
+  *title={How the Wind Can Be Leveraged for Saving Energy in a Truck-Drone Delivery System},* 
+  *year={2023},*
+   *volume={},*
+  *number={},*
+  *pages={1-12},*
+  *keywords={},*
+  *doi={10.1109/TITS.2023.3234627},*
+  *ISSN={1558-0016},*
+  *month={},}*
+```  
 ## BRIEF OVERVIEW OF THE REPO:
  
 For evaluating the algorithms provided in our paper on a simulated environment, we rely on BlueSky (https://github.com/TUDelft-CNS-ATM/bluesky).
@@ -32,7 +32,7 @@ Although BlueSky can model aircraft under the effect of the wind, there is not a
 So, we created an ad hoc plug-in for BlueSky (still at a very preliminary stage though) that can estimate the energy consumed when a drone flies.
 The idea behind the plug-in is the following: when a flight simulation is done, BlueSky creates a log file (in CSV format) in which each line comprises different fields, like GPS coordinates, drone's speed, global wind, and so on.
 In order to estimate a semi-realistic energy consumption, we parse the log file and for each two consecutive lines, we extract the two GPS coordinates, so that we can compute the actual flown distance and the drone's heading.
-Accordingly, knowing the wind experienced by the drone, we can then \textit{precisely} estimate the energy consumption of it by using our energy consumption model derived from the paper "Energy use and life cycle greenhouse gas emissions of drones for commercial package delivery" (https://www.nature.com/articles/s41467-017-02411-5).
+Accordingly, knowing the wind experienced by the drone, we can then precisely estimate the energy consumption of it by using our energy consumption model derived from the paper "Energy use and life cycle greenhouse gas emissions of drones for commercial package delivery" (https://www.nature.com/articles/s41467-017-02411-5).
 In particular, we propose the idea of wind classes to simplify the estimation of energy consumption (by default the code uses wind classes).
 It should be noted that the code may also be executed without the idea of wind classes; this makes the computation as exact as feasible at the price of severe performance deterioration.
 As detailed in our work, the use of the developed plug-in allows us to validate the theoretical consumption of the proposed model, with only minor differences due to more realistic UAV trajectories, namely the path of the drone in the simulator is not exactly the euclidian trajectory between the take-off and the rendevouz point.
