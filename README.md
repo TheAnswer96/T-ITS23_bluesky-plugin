@@ -87,6 +87,11 @@ sr.process_results()
 >University of Florence, Italy
 >lorenzo.palazzetti@unifi.it
 
+>**Cristina M. Pinotti** 
+>Professor, Dept. of Comp. Sci. and Math., 
+>University of Perugia, Italy
+>cristina.pinotti@unipg.it
+
 >**Giulio Rigoni**
 >Post-doc, Dept. of Math., 
 >University of Padua, Italy
